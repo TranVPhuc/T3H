@@ -1,0 +1,44 @@
+/* .box-alert
+{
+    background-color: darkgray;
+    color: gray;
+    border: 1px solid #7e7772e0;
+    border-radius: 4px;
+    padding: 5px;
+    width: 450px;
+} */
+
+.cardex{
+    width: 250px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-img{
+    width: 100%;
+}
+
+.card-cotent{
+    padding: 10px;
+}
+
+.card-title{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-des{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-button
+{
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    background-color: cornflowerblue;
+    color: #fff;
+}

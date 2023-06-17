@@ -1,0 +1,50 @@
+.container{
+    width: 600px;
+    height: 270px;
+    padding: 40px;
+    background-color: #dae8fc;
+    border: 1px solid blue;
+    margin: 10px;
+    }
+.box-content{
+    background-color: #f8cecc;
+    border: 1px solid palevioletred;
+    margin-bottom: 18px;
+    padding: 30px;
+}
+
+.delete{
+    position: relative;
+    width: 100px;
+    height: 40px;
+    background-color: #d80073;
+    color: #fff;
+    border: 1px solid palevioletred;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.keep{
+    width: 100px;
+    height: 40px;
+    background-color: #1ba1e2;
+    color: #fff;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.warning{
+    width: 155px;
+    height: 85px;
+    background-color: #bbdec4;
+    position: absolute;
+    top: 215px;
+    left: 10px;
+    text-align: center;
+    border: 1px solid green;
+    display: none;
+}
+
+.delete:hover ~ .warning {
+    display: block;
+}
