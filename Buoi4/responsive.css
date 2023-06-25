@@ -1,0 +1,14 @@
+@media(max-width: 1024px) and (min-width: 720px){
+    .container
+    {
+        width: 720px;
+        height: 923px;  
+    }
+
+    .search{
+        width: 166px;
+        height: 40px;
+        border-radius: 8px;
+        border: 1px solid #000;
+    }
+}
