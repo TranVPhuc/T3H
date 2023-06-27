@@ -11,4 +11,145 @@
         border-radius: 8px;
         border: 1px solid #000;
     }
+
+   .user-list{
+    width: 672px;
+    height: 716px;
+   }
+
+   .user1{
+    width: 328px;
+    height: 228px;
+    display: flex;
+   }
+
+   .card-user-left{
+    width: 184px;
+    height: 228px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .avatar-user{
+    width: 168px;
+    height: 156px;
+    margin-right: 15px;
+   }
+
+   .contact{
+    display: none;
+   }
+
+   .profile-link1{
+    display: block;
+   }
+
+   .card-user-right{
+    width: 144px;
+    height: 228px;
+   }
+
+   .user-name{
+        font-size: 30px;
+   }
+
+   .language{
+    display: none;
+   }
+
+   .user-position{
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 400;
+   }
+
+   .user-location{
+    display: none;
+   }
+
+   .profile-link{
+    display: none;
+   }
+
+   .contact1{
+    margin-top: 50px;
+    display: flex;
+    width: 112px;
+    height: 32px;
+    align-items: center;
+   }
+
+   .contact-method{
+    margin-right: 10px;
+   }
+}
+
+@media (max-width: 719px) and (min-width: 510px)
+{
+    .container{
+        width: 510px;
+        height: 2058px;
+    }
+
+    .menu-title{
+        font-weight: 400;
+    }
+
+    .search-bar{
+        display: none;
+    }
+
+    .bar-info{
+        display: none;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 509px)
+{
+    .container{
+        width: 360px;
+        height: 1650px;
+    }
+
+    .menu{
+        display: flex;
+    width: 162px;
+    padding: 8px 16px;
+    align-items: center;
+
+    }
+
+    .menu-title{
+        font-weight: 400;
+    }
+
+    .search-bar{
+        display: none;
+    }
+
+    .speaker{
+        margin-left: 30px;
+    }
+
+    .speaker-icon{
+        margin-right: 20px;
+    }
+
+    .speaker-title{
+        font-size: 60px;
+        font-weight: 600;
+    }
+
+    .bar-info{
+        display: none;
+    }
+
+    .user-list{
+        width: 328px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
 }

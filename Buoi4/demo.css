@@ -98,10 +98,15 @@
 
 .contact{
     margin-left: 16px;
+    
 }
 
 .contact-method{
     margin-right: 15px;
+}
+
+.profile-link1{
+    display: none;
 }
 
 .card-user-right{
@@ -121,6 +126,10 @@
     font-size: 16px;
     line-height: 26px;
     margin-top: 10px;
+}
+
+.contact1{
+    display: none;
 }
 
 .user-location{
