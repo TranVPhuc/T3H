@@ -142,7 +142,7 @@
 //     console.log(row);
 //   }
 
-//hập vào 2 số m, n (m >= 2, n > =2). 
+//hập vào 2 số m, n (m >= 2, n > =2).
 //Hãy in ra màn hình hình chữ nhật có độ chiều rộng là m và chiều cao là n.
 // let m = 1;
 // let n = 1;
@@ -156,14 +156,14 @@
 //       row += '* ';
 //     }
 //     console.log(row);
-//   } 
+//   }
 
-//Nhập vào số n (n >= 3). 
+//Nhập vào số n (n >= 3).
 //Hãy in ra màn hình hình tam giác vuông cân có độ dài cạnh góc vuông = n.
 // let n = 1
 // while (n < 3) {
 //    n = Number(prompt("Nhap so n (n >= 3):"));
-// } 
+// }
 
 // for (let i = 1; i <= n; i++) {
 //   let row = '';
@@ -172,3 +172,4 @@
 //   }
 //   console.log(row);
 // }
+
