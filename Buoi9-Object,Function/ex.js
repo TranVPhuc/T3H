@@ -502,16 +502,205 @@ let users = [
     }
 ];
 
-let n = Number(prompt("Nhao vao 1 so n: "))
-let isExistUser = false;
-for (let user of users) {
-    if (n === user.id) {
-        isExistUser = true;
-        console.log(user)
-    } 
-}
+// let n = Number(prompt("Nhao vao 1 so n: "))
+// let isExistUser = false;
+// for (let user of users) {
+//     if (n === user.id) {
+//         isExistUser = true;
+//         console.log(user)
+//     }
+// }
 
-if (isExistUser == false) {
-    console.log("Khong ton tai user")
-}
+// if (isExistUser == false) {
+//     console.log("Khong ton tai user")
+// }
 
+// let count = 0;
+// for (let user of users) {
+//     if (user.age > 50)
+//     {
+//         count++;
+//     }
+// }
+// console.log(count)
+
+// let countTrue = 0;
+// let countFalse = 0;
+// for (let user of users) {
+//     if (user.is_married == true) {
+//         countTrue++;
+//     } else if (user.is_married == false) {
+//         countFalse++;
+//     }
+// }
+// console.log("So luong user da ket hon: "+countTrue);
+// console.log("So luong user chua ket hon: " + countFalse);
+
+// let userJob = {}
+// for (let i = 0; i < users.length; i++) {
+//     let job = users[i].job
+//     if (!userJob[job]) {
+//         userJob[job] = 1;
+//     } else {
+//         userJob[job]++
+//     }
+// }
+//  console.log(userJob)
+
+//9.1:ARRAY - BAI 2
+// let keyword = prompt("Nhap vao 1 chuoi key word")
+
+// let isExistUser = false;
+// for (user of users) {
+//     let fullname = user.first_name + " " + user.last_name
+//     let keywordLowercase = keyword.toLowerCase();
+//     let fullnameLowercase = fullname.toLowerCase();
+//     if (fullnameLowercase.includes(keywordLowercase))
+//     {
+//         isExistUser = true
+//         console.log(user.email)
+//     }
+// }
+
+// if (isExistUser == false) {
+//     console.log("Khong co user nao phu hop voi keyword da nhap")
+// }
+
+// let arr1 = ['Phuc','Trung tam T3h','Lop reactjs']
+// let minarr = arr1[0]
+// for (let key of arr1) {
+//     if (key.length < minarr.length)
+//     {
+//         minarr = key;
+//         break;
+//     }
+// }
+// console.log(minarr)
+
+// let text = prompt("Nhap vao 1 chuoi text")
+// let isExist = false
+// for (let key of arr1) {
+//     if (key.includes(text)) {
+//         isExist = true;
+//         console.log("Nhung chuoi chua gia tri cua text la: "+key)
+//     }
+// }
+
+// if (isExist == false) {
+//     console.log("Khong co chuoi chua gia tri text")
+// }
+
+// let newS = [];
+// for (let key of arr1) {
+//     let tachString = key.substring(0, 3)
+//     newS.push(tachString)
+// }
+// console.log(newS)
+
+// let mergeArray = arr1.join("-");
+// console.log(mergeArray)
+
+//9.1:ARRAY - BAI 3
+// let d1 = prompt("Nhập dãy số d1, mỗi số cách nhau bằng dấu \",\":").split(",");
+// let d2 = prompt("Nhập dãy số d2, mỗi số cách nhau bằng dấu \",\":").split(",");
+// d1 = d1.map(Number);
+// d2 = d2.map(Number);
+
+// for (let i = 0; i < d1.length; i++) {
+//   if (!d2.includes(d1[i])) {
+//     allValuesInD1AreInD2 = false;
+//     break;
+//   }
+// }
+// console.log(allValuesInD1AreInD2);
+
+// let sumD1 = 0;
+// for (let value of d1) {
+//     sumD1+= value
+// }
+// console.log(sumD1)
+
+// let isDivisionable = false
+// let arrDivisionNumber =[]
+// for (let value1 of d2) {
+//     if (value1 % sumD1 == 0)
+//     {
+//         isDivisionable = true;
+//         arrDivisionNumber.push(value1)
+//     }
+// }
+//  console.log("Cac so chia duoc cho tong d1 la: "+ arrDivisionNumber)
+
+// let divisibaleBy2 = []
+// for (let value of d1) {
+//     if (value % 2 == 0) {
+//         divisibaleBy2.push(value);
+//     }
+// }
+// for (let value1 of d2) {
+//     if (value1 % 2 == 0) {
+//         divisibaleBy2.push(value1);
+//     }
+// }
+
+// let uniqueArr = [];
+// for (let value3 of divisibaleBy2) {
+//     if (!uniqueArr.includes(value3)) {
+//         uniqueArr.push(value3);
+//     }
+// }
+// console.log(uniqueArr);
+
+//9.2: OBJECT & FUNCTION
+//Khai báo 1 function với đầu vào là 3 số a, b, c (a khác 0).
+//Hãy tìm nghiệm của phương trình a.x ^ 2 + b.x + c = 0 và đưa ra kết quả dưới dạng 1 mảng gồm các nghiệm của phương trình.
+// function tinhPT(a, b, c) {
+//     let delta = b ** 2 - 4 * a * c;
+//     let answer = []
+//     if (delta > 0) {
+//         let x1 = (-b + Math.sqrt(delta)) / (2 * a);
+//         let x2 = (-b - Math.sqrt(delta)) / (2 * a);
+//         answer = [x1,x2]
+//     } else if (delta === 0)
+//     {
+//         let x = -b / (2 * a);
+//         answer=[x]
+//     }
+//     return answer;
+// }
+
+// let a = Number(prompt("Nhap so thu 1"));
+// let b = Number(prompt("Nhap so thu 2"));
+// let c = Number(prompt("Nhap so thu 3"));
+
+// let solutions = tinhPT(a, b, c);
+// console.log(solutions);
+
+//Khai báo 1 function với đầu vào là 3 số a, b, c.
+//Kiểm tra xem a, b, c có tạo thành 3 cạnh của tam giác không.Nếu tạo thành tam giác, đầu ra là true.Ngược lại, đầu ra là false.
+// function isTriangle(a, b, c) {
+//     if (a > 0 && b > 0 && c > 0) {
+//     if (a + b > c && a + c > b && b + c > a) {
+//       return true;
+//     }
+//   }
+//   return false;
+// }
+// let a = Number(prompt("Nhap so thu 1"));
+// let b = Number(prompt("Nhap so thu 2"));
+// let c = Number(prompt("Nhap so thu 3"));
+// let solutions = isTriangle(a, b, c);
+// console.log(solutions);
+
+//Khai báo 1 function với đầu vào là day, month, year. 
+//Kiểm tra xem 3 giá trị đó có tạo thành 1 ngày, tháng năm hợp lệ không.
+// function isValid(day, month, year) {
+//     if (year > 0 && month >= 1 && month <= 12) {
+//         let lastDayInMonth = new Date(year, month, 0).getDate(); 
+//         if (day >= 1 && day <= lastDayInMonth) {
+//             return true;
+//         }
+//     }
+//     return false;
+// }
+// console.log(isValid(29, 2, 2022))
