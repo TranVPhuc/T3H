@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" style="display: flex; flex-direction: column; width: 50%;" >
+        <h1>Bai1</h1>
+        <input type="email" name="" id="my-email">
+        <h1>Bai2</h1>
+        <input type="number" name="" id="number-a">
+        <input type="number" name="" id="number-b">
+        <button id="add">Cong</button>
+        <button id="minus">Tru</button>
+        <h1>Bai3</h1>
+        <img src="https://64.media.tumblr.com/dc42b6a813e5e3d8763bee04655ab156/a03abcf8a10af14f-62/s1280x1920/b4376a153adb2c44b120912bad7b0d80dfbcc3ad.png" width="100px" height="100px" alt="" id="image">
+        <button id="tangSize">Tang</button>
+        <button id="giamSize">Giam</button>
+    </div>
+    
+    <div class="bai2">
+        <div class="input-section" style="display: flex; margin-top: 20px;">
+            <input type="text" id="job" placeholder="Nhap noi dung viec moi" style="margin-right: 15px;">
+            <button id="createJob">Tao cong viec</button>
+        </div>
+        <div class="jobList">
+            <h1>Danh sach cong viec can lam:</h1>
+            <ul id="jobToDo">
+                <li id="jobToDoItem">Di choi</li>
+                <li id="jobToDoItem">Lam bai tap</li>
+                <li id="jobToDoItem">Phoi quan ao</li>
+            </ul>
+        </div>
+    </div>
+
+    <table id="user-table">
+        <tr>
+            <th>ID</th>
+            <th>Tên</th>
+            <th>Address</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>name1</td>
+            <td>Address1</td>
+            <td><button class="btn-delete">Xóa</button></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>name2</td>
+            <td>Address2</td>
+            <td><button class="btn-delete">Xóa</button></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>name3</td>
+            <td>Address3</td>
+            <td><button class="btn-delete">Xóa</button></td>
+        </tr>
+       
+    </table>
+
+    <div id="bai4">
+        <h2>Dang ky tai khoan</h2>
+        <div style="display: flex; flex-direction: row; align-items: center;">
+            <p>Ho va ten *</p>
+            <input style="width: 100px; height: 20px; margin-left: 15px;" type="text" id="name">
+        </div>
+        <div style="display: flex; flex-direction: row; align-items: center;">
+            <p>Gioi tinh</p>
+            <select style="margin-left: 15px;" name="" id="gender">
+                <option value="" class="gender1">Nam</option>
+                <option value="Nu" class="gender2">Nu</option>
+            </select>
+        </div>
+        <div style="display: flex; flex-direction: row; align-items: center;">
+            <p>Tuoi</p>
+            <input style="margin-left: 15px;" type="number" id="age">
+        </div>
+        <div style="display: flex; flex-direction: row; align-items: center;">
+            <p>Dia chi</p>
+            <input style="margin-left: 15px;" type="text" id="address">
+        </div>
+        <div style="display: flex; flex-direction: row; align-items: center;">
+            <p>Email * </p>
+            <input style="margin-left: 15px;" type="text" id="email">
+        </div>
+
+        <div style="display: flex; flex-direction: row; align-items: center;">
+            <p>Mat khau</p>
+            <input style="margin-left: 15px;" type="text" id="password">
+        </div>
+
+        <button id="register">Dang ky</button>
+    </div>
+    <script src="./btvn.js"></script>
+</body>
+</html>
