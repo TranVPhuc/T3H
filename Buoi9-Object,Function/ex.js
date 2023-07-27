@@ -536,6 +536,7 @@ let users = [
 // console.log("So luong user da ket hon: "+countTrue);
 // console.log("So luong user chua ket hon: " + countFalse);
 
+//Test dem job
 // let userJob = {}
 // for (let i = 0; i < users.length; i++) {
 //     let job = users[i].job
